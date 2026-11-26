@@ -16,4 +16,5 @@ export interface Message {
   content: string;
   sources?: ChatSource[];
   isError?: boolean;
+  timestamp?: number;
 }
